@@ -50,6 +50,8 @@ addBtn.addEventListener('click', e => {
         });
         productListUL.innerHTML = '';
         getData(productData);
+        nameInput.value = '';
+        priceInput.value = '';
     }
     
 });
