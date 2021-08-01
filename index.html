@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <title>Product Catalog</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-dark bg-dark d-flex">
+            <h1 class="navbar-brand m-auto">Product Catalog</h1>
+            <input type="text" name="filter" class="form-control m-3" id="filter" placeholder="Filter your porduct ....."/>
+        </nav>
+        <div class="card card-body">
+            <ul class="list-group collection">
+       
+                <!-- <li class="list-group-item collection-item"><strong>Snekar</strong><span class="price">$20</span><i class="far fa-trash-alt float-right"></i><i class="fas fa-pencil-alt float-right"></i></li>    
+                <li class="list-group-item collection-item"><strong>Shirt</strong><span class="price">$20</span><i class="far fa-trash-alt float-right"></i><i class="fas fa-pencil-alt float-right"></i></li>           -->
+            </ul>
+            <form>
+                <div class="row mt-4">
+                    <div class="col">
+                        <input type="text" placeholder="Product Name" class="form-control product-name">
+                    </div>
+                    <div class="col">
+                        <input type="text" placeholder="Price" class="form-control product-prise">
+                    </div>
+                </div>
+                <button class="btn btn-block btn-primary add-product mt-2">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
